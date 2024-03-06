@@ -2,4 +2,13 @@
     <string name="app_name">Adv160420105Week2</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="playername">Player Name</string>
+    <string name="nol">0</string>
+    <string name="addition">+</string>
+    <string name="gameover">Game Over</string>
+    <string name="backtomainscreen">BACK TO MAIN SCREEN</string>
+    <string name="yourscore">Your score is</string>
+    <string name="submitanswer">SUBMIT ANSWER</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="youranswer">Your Answer</string>
 </resources>
