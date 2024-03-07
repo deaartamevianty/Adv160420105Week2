@@ -30,7 +30,7 @@ class ScoreFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         if (arguments != null) {
-            val playerScore = ScoreFragmentArgs.fromBundle(requireArguments()).scorePlayer
+            val playerScore = ScoreFragmentArgs.fromBundle(requireArguments()).playerScore
             binding.txtScore.text = "$playerScore"
         }
 

@@ -44,6 +44,12 @@ class GameFragment : Fragment() {
         binding.txtNum1.text = num1.toString()
         binding.txtNum2.text = num2.toString()
 
+        binding.btnTest.setOnClickListener {
+            val action = GameFragmentDirections.actionTestFragment()
+            Navigation.findNavController(it).navigate(action)
+        }
+
+
         binding.btnSubmit.setOnClickListener {
             val playerAnswer = binding.txtAnswer.editText?.text.toString()
 
